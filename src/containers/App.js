@@ -35,7 +35,7 @@ class App extends Component {
 
             //if the name of the robots in lowercase, includes, and this
             // does this comparison, if anything in the string includes tolowercase
-            // well then only return the robots that return true to this
+            // well then only return thee robots that return true to this
             return robot.name.toLowerCase().includes(searchfield.toLowerCase());
         })
         //so for robots.length === 0 we can do !robots.length which means the same thing
